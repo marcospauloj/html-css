@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-    @import url(@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
     :root   {
@@ -60,7 +60,10 @@
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
-    
+ }
+
+ section > p{
+   padding-bottom: 2em;
  }
 
  section.normal {
@@ -71,12 +74,26 @@
  section.imagem {
     background-color: rgb(52, 51, 51);
     color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.51);
+    background-attachment: fixed;
  }
 
  section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.382);
+    background-color: rgba(0, 0, 0, 0.51);
+    text-shadow: 1px 1px 0px black ;
+ }
+
+ section#img01 {
+   background-image: url(../imagens/background001.jpg);
+   background-position: right center;
+   background-size: cover;
+ }
+
+ section#img02 {
+   background-image: url(../imagens/background002.jpg);
+   background-size: cover;
 
  }
 
