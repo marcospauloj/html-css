@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+          body    {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table   {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight:bold;
+            padding: 10px;
+        }
+
+        th, td  {
+            border: 1px solid gray ;
+            padding: 10px;
+        }
+
+        .destaque {
+            background-color: yellow;
+        }
+
+        col.cnome  {
+            background-color: chartreuse;
+        }
+        col.cgrupo {
+            background-color: cyan;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercíco de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col  class="cnome">
+            <col class="cgrupo" span="3">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+
+
+        </tr>
+        <tr>
+            <td>Carlos Roberto</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Analista</td>
+        </tr>
+        <tr>
+            <td>Marcia Alemida</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td >Marcelo Costa</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Músico</td>
+        </tr>
+        <tr>
+            <td>Renata Silva</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Marcos Paulo</td>
+            <td>M</td>
+            <td>52</td>
+            <td>Gestor de Frota</td>
+        </tr>
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+</body>
+</html>
