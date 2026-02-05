@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*   {
+*  {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -11,11 +11,11 @@ body, html{
 }
 
 header  {
-    background-color: gray;
+    background-color: rgb(89, 88, 88);
 }
 
 
-header > h1{
+header > h1 {
     padding: 10px;
     text-align: center;
 }
@@ -29,12 +29,12 @@ menu  > ul {
 
 }
 
-menu > ul > li > a{
+menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 86, 86);
+    background-color: rgb(73, 72, 72);
     color: white;
     
 }
